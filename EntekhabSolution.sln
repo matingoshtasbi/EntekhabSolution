@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presention", "1.Presention", "{2B1106CE-0050-44C3-8DFD-D0F1A8CF0060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{3E3809CF-917E-418D-9A47-C57152AB0B84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{46A6CB6F-D5D2-4FCE-B731-90DE2CB113A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{4563394B-B1A2-4CD4-8617-45A82358BC14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Presentation.WebApi", "EntekhabSalaryCalc.Presentation.WebApi\EntekhabSalaryCalc.Presentation.WebApi.csproj", "{918C7C2D-8137-4635-AE2B-C7EFD48500F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Application.Core", "EntekhabSalaryCalc.Application.Core\EntekhabSalaryCalc.Application.Core.csproj", "{2185BA43-64CA-47E7-8A21-E28663157F18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Application", "EntekhabSalaryCalc.Application\EntekhabSalaryCalc.Application.csproj", "{8776D621-4908-4BF8-A03E-FA2A1E19DF21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Domain", "EntekhabSalaryCalc.Domain\EntekhabSalaryCalc.Domain.csproj", "{C6DB333C-3B7B-4FDB-925F-617E509D604A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Infrastructure", "EntekhabSalaryCalc.Infrastructure\EntekhabSalaryCalc.Infrastructure.csproj", "{32B3204B-B331-4307-871F-26CCEEA25CD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Infrastructure.Persistence", "EntekhabSalaryCalc.Infrastructure.Persistence\EntekhabSalaryCalc.Infrastructure.Persistence.csproj", "{9700DF63-DE2F-4DDE-9033-7DC76B07DD74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3828FAF2-05D1-4B66-A8C2-EB84CD87ACE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Infrastructure.Persistence.SqlServer", "EntekhabSalaryCalc.Infrastructure.Persistence.SQLServer\EntekhabSalaryCalc.Infrastructure.Persistence.SqlServer.csproj", "{54DF04BF-1D93-4E1F-A204-7B1848FB6CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Infrastructure.Persistence.Sqlite", "EntekhabSalaryCalc.Infrastructure.Persistence.Sqlite\EntekhabSalaryCalc.Infrastructure.Persistence.Sqlite.csproj", "{7357377B-68F9-41D3-875B-91D33484E8FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Infrastructure.ReadModules", "EntekhabSalaryCalc.Infrastructure.ReadModules\EntekhabSalaryCalc.Infrastructure.ReadModules.csproj", "{5AB7B26B-BF51-4713-90AF-38052F54C1D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Application.Contracts", "EntekhabSalaryCalc.Application.Contracts\EntekhabSalaryCalc.Application.Contracts.csproj", "{199802F6-E026-458B-B6B6-4FD29F616A6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntekhabSalaryCalc.Domain.Test", "EntekhabSalaryCalc.Domain.Test\EntekhabSalaryCalc.Domain.Test.csproj", "{66183E96-82F1-42A3-A32D-E3AF00F53A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{BB2644EB-27E9-47A4-9312-1EE5CA6F0F42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{918C7C2D-8137-4635-AE2B-C7EFD48500F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918C7C2D-8137-4635-AE2B-C7EFD48500F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918C7C2D-8137-4635-AE2B-C7EFD48500F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918C7C2D-8137-4635-AE2B-C7EFD48500F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2185BA43-64CA-47E7-8A21-E28663157F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2185BA43-64CA-47E7-8A21-E28663157F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2185BA43-64CA-47E7-8A21-E28663157F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2185BA43-64CA-47E7-8A21-E28663157F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8776D621-4908-4BF8-A03E-FA2A1E19DF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8776D621-4908-4BF8-A03E-FA2A1E19DF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8776D621-4908-4BF8-A03E-FA2A1E19DF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8776D621-4908-4BF8-A03E-FA2A1E19DF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DB333C-3B7B-4FDB-925F-617E509D604A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DB333C-3B7B-4FDB-925F-617E509D604A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DB333C-3B7B-4FDB-925F-617E509D604A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DB333C-3B7B-4FDB-925F-617E509D604A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B3204B-B331-4307-871F-26CCEEA25CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B3204B-B331-4307-871F-26CCEEA25CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B3204B-B331-4307-871F-26CCEEA25CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B3204B-B331-4307-871F-26CCEEA25CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9700DF63-DE2F-4DDE-9033-7DC76B07DD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9700DF63-DE2F-4DDE-9033-7DC76B07DD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9700DF63-DE2F-4DDE-9033-7DC76B07DD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9700DF63-DE2F-4DDE-9033-7DC76B07DD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DF04BF-1D93-4E1F-A204-7B1848FB6CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DF04BF-1D93-4E1F-A204-7B1848FB6CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DF04BF-1D93-4E1F-A204-7B1848FB6CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DF04BF-1D93-4E1F-A204-7B1848FB6CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7357377B-68F9-41D3-875B-91D33484E8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7357377B-68F9-41D3-875B-91D33484E8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7357377B-68F9-41D3-875B-91D33484E8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7357377B-68F9-41D3-875B-91D33484E8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB7B26B-BF51-4713-90AF-38052F54C1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB7B26B-BF51-4713-90AF-38052F54C1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB7B26B-BF51-4713-90AF-38052F54C1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB7B26B-BF51-4713-90AF-38052F54C1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199802F6-E026-458B-B6B6-4FD29F616A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199802F6-E026-458B-B6B6-4FD29F616A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199802F6-E026-458B-B6B6-4FD29F616A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199802F6-E026-458B-B6B6-4FD29F616A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66183E96-82F1-42A3-A32D-E3AF00F53A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66183E96-82F1-42A3-A32D-E3AF00F53A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66183E96-82F1-42A3-A32D-E3AF00F53A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66183E96-82F1-42A3-A32D-E3AF00F53A17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{918C7C2D-8137-4635-AE2B-C7EFD48500F6} = {2B1106CE-0050-44C3-8DFD-D0F1A8CF0060}
+		{2185BA43-64CA-47E7-8A21-E28663157F18} = {3828FAF2-05D1-4B66-A8C2-EB84CD87ACE2}
+		{8776D621-4908-4BF8-A03E-FA2A1E19DF21} = {6A9A1A50-2C2C-4070-9FB5-771E797709B3}
+		{C6DB333C-3B7B-4FDB-925F-617E509D604A} = {46A6CB6F-D5D2-4FCE-B731-90DE2CB113A5}
+		{32B3204B-B331-4307-871F-26CCEEA25CD4} = {4563394B-B1A2-4CD4-8617-45A82358BC14}
+		{9700DF63-DE2F-4DDE-9033-7DC76B07DD74} = {BB2644EB-27E9-47A4-9312-1EE5CA6F0F42}
+		{3828FAF2-05D1-4B66-A8C2-EB84CD87ACE2} = {3E3809CF-917E-418D-9A47-C57152AB0B84}
+		{54DF04BF-1D93-4E1F-A204-7B1848FB6CF1} = {BB2644EB-27E9-47A4-9312-1EE5CA6F0F42}
+		{7357377B-68F9-41D3-875B-91D33484E8FC} = {BB2644EB-27E9-47A4-9312-1EE5CA6F0F42}
+		{6A9A1A50-2C2C-4070-9FB5-771E797709B3} = {3E3809CF-917E-418D-9A47-C57152AB0B84}
+		{5AB7B26B-BF51-4713-90AF-38052F54C1D5} = {BB2644EB-27E9-47A4-9312-1EE5CA6F0F42}
+		{199802F6-E026-458B-B6B6-4FD29F616A6D} = {6A9A1A50-2C2C-4070-9FB5-771E797709B3}
+		{66183E96-82F1-42A3-A32D-E3AF00F53A17} = {46A6CB6F-D5D2-4FCE-B731-90DE2CB113A5}
+		{BB2644EB-27E9-47A4-9312-1EE5CA6F0F42} = {4563394B-B1A2-4CD4-8617-45A82358BC14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F77944B8-F2FA-4E4E-A0F7-C9FC4EB7ABED}
+	EndGlobalSection
+EndGlobal

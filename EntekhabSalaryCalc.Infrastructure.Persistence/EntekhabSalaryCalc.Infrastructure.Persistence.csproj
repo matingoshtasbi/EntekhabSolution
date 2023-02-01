@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AttendanceManagement\**" />
+    <Compile Remove="Repositories\EmployeeManagement\QueryModelConfiguration\**" />
+    <EmbeddedResource Remove="AttendanceManagement\**" />
+    <EmbeddedResource Remove="Repositories\EmployeeManagement\QueryModelConfiguration\**" />
+    <None Remove="AttendanceManagement\**" />
+    <None Remove="Repositories\EmployeeManagement\QueryModelConfiguration\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EntekhabSalaryCalc.Application.Core\EntekhabSalaryCalc.Application.Core.csproj" />
+    <ProjectReference Include="..\EntekhabSalaryCalc.Domain\EntekhabSalaryCalc.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
